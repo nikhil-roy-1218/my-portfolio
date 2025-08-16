@@ -20,11 +20,7 @@ class HeaderDesktop extends StatelessWidget {
       ),
       child: Row(
         children: [
-          SiteLogo(
-            onTap: () {
-              print("Logo Click");
-            },
-          ),
+          SiteLogo(onTap: () {}),
           Spacer(),
           for (int i = 0; i < navTiles.length; i++)
             Padding(
