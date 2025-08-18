@@ -6,6 +6,7 @@ import 'package:portfolio/widgets/drawe_mobile.dart';
 import 'package:portfolio/widgets/header_desktop.dart';
 
 import 'package:portfolio/widgets/header_mobile.dart';
+import 'package:portfolio/widgets/main_section.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -48,11 +49,8 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
               // Main Section => Body
-              Container(
-                height: 500,
-                width: double.maxFinite,
-                color: Colors.deepPurple.shade100,
-              ),
+              MainSection(),
+
               // Skill
               Container(
                 height: 500,
